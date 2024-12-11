@@ -1,5 +1,9 @@
 flask
 tavily-python
 googletrans==4.0.0-rc1
+<<<<<<< HEAD
 gunicorn==20.1.0
 flask-cors==3.1.1
+=======
+flask-cors==3.1.1 
+>>>>>>> ec9e6b786725d1ce187fbc5e1a03b4950338861b
