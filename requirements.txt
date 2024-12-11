@@ -1,0 +1,3 @@
+flask
+tavily-python
+googletrans==4.0.0-rc1
