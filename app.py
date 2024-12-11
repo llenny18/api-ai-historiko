@@ -1,8 +1,12 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 from tavily import TavilyClient
 from googletrans import Translator
 
 app = Flask(__name__)
+
+# Enable CORS for all domains or a specific domain
+CORS(app, origins="http://localhost:5173")  # This allows your React app to access the Flask API
 
 # Step 1: Instantiate TavilyClient with your API key
 tavily_client = TavilyClient(api_key="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")
